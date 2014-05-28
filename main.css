@@ -1,0 +1,188 @@
+body{background:url(/images/website/pattern.jpg) repeat}
+a{color:#007ac3;text-decoration:none}
+a:hover{color:#000;text-decoration:underline}
+
+/* STRUCTURE */
+
+#wrapper{background:url(/images/website/page_repeating_bg.png) repeat-x 0 0; position:relative; z-index:1}
+
+#body-container{padding:10px 0;background:url(/images/website/page_Bg.jpg) no-repeat center top}
+
+#mainbody{width:1000px;min-height:391px;margin:0 auto 10px}
+
+.internal-page #mainbody{background:#fff;padding:10px;width:980px;position:relative;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;behavior:url(/PIE.htc)}
+
+#site-header{height:251px;background:url(/images/website/header_repeat_bg.png) repeat-x 0 245px; position:relative; z-index:2 }
+
+#site-header .inner-container{width:1000px;height:251px;margin:0 auto;position:relative}
+
+#header-link{width:1054px;height:245px;position:absolute;right:0;top:0;background:url(/images/website/master_sprite.png) no-repeat 0 0}
+
+#site-footer{width:1000px;margin:0 auto;overflow:hidden;text-align:center;font-family:helvetica;color:#fff;font-weight:700;text-transform:uppercase}
+
+#site-footer a{color:#fff}
+
+#footer-logos{width:1000px;margin-bottom:10px}
+
+#footer-logos .footer-logo{float:left}
+
+/********SLIDER********/
+
+#slider-wrapper{width:1000px;height:78px;background:url(/images/website/slider_bg.png) no-repeat center top;position:relative;margin:0 auto}
+#slider-wrapper .slider{width:918px;height:63px;padding:7px 0 8px;position:relative;overflow:hidden;margin:0 auto}
+#slider-wrapper .items{position:absolute;width:2000em}
+#slider-wrapper .item{width:918px;float:left;text-align:center}
+#slider-wrapper .item a{width:222px;height:63px;overflow:hidden;margin:0 2px;display:inline-block;vertical-align:top}
+.ie6 #slider-wrapper .item a,.ie7 #slider-wrapper .item a{display:inline;zoom:1}
+#slider-wrapper .next,#slider-wrapper .prev{display:block;width:30px;height:42px;cursor:pointer;background:url(/images/website/master_sprite.png) no-repeat;position:absolute;top:20px}
+#slider-wrapper .prev{background-position:0 -278px;left:5px}
+#slider-wrapper .next{background-position:-30px -278px;right:5px}
+
+/**************** ACCORDION TABS **************/
+
+#j-accordion{width:981px;height:362px;padding:10px 9px 10px 10px;overflow:hidden;background:url(/images/website/tabs_bg.png) repeat-x left top;position:relative;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;behavior:url(/PIE.htc)}
+#j-accordion .tab{width:60px;height:362px;text-indent:-9999px;float:left;background:url(/images/website/accordion_hdr.png) no-repeat -9999px -9999px;overflow:hidden;display:block}
+#j-accordion .tab1{background-position:0 0}
+#j-accordion .tab2{background-position:-120px 0}
+#j-accordion .tab3{background-position:-240px 0}
+#j-accordion .tab1.active{background-position:-60px 0}
+#j-accordion .tab2.active{background-position:-180px 0}
+#j-accordion .tab3.active{background-position:-300px 0}
+#j-accordion .pane{width:0;float:left;overflow:hidden}
+#j-accordion .pane.active{width:800px}
+#j-accordion .pane .content{width:780px;padding:0 10px}
+#j-accordion .pane1 .content{width:800px;padding:0}
+#j-accordion .overflow{height:342px;overflow:auto;padding:10px 15px;color:#fff}
+#j-accordion .pane1 .overflow{padding:0 25px;height:362px;overflow:hidden}
+
+/*GLOBAL NAV */
+
+#global-nav-cont{width:834px;height:37px;position:absolute;right:0;bottom:5px;background:url(/images/website/master_sprite.png) no-repeat -220px -245px}
+#global-nav{width:646px;height:37px;float:left}
+#global-nav ul,#global-nav li{margin:0;padding:0;list-style:none}
+#global-nav li.nav{float:left}
+#global-nav .dropdown-li{position:relative;z-index:10}
+#global-nav .nav-link{display:block;height:37px;position:relative;z-index:60;text-indent:-9999px;background-image:url(/images/website/master_sprite.png);background-repeat:no-repeat}
+#global-nav li.nav1 .nav-link{width:121px;background-position:-220px -245px}
+#global-nav li.nav1 .nav-link:hover,#global-nav li.nav1 .nav-link.current{background-position:-220px -283px}
+#global-nav li.nav2 .nav-link{width:132px;background-position:-341px -245px}
+#global-nav li.nav2 .nav-link:hover,#global-nav li.nav2 .nav-link.current{background-position:-341px -283px}
+#global-nav li.nav3 .nav-link{width:158px;background-position:-473px -245px}
+#global-nav li.nav3 .nav-link:hover,#global-nav li.nav3 .nav-link.current{background-position:-473px -283px}
+#global-nav li.nav4 .nav-link{width:146px;background-position:-631px -245px}
+#global-nav li.nav4 .nav-link:hover,#global-nav li.nav4 .nav-link.current{background-position:-631px -283px}
+#global-nav li.nav5 .nav-link{width:88px;background-position:-777px -245px}
+#global-nav li.nav5 .nav-link:hover,#global-nav li.nav5 .nav-link.current{background-position:-777px -283px}
+#global-nav .submenu-container{width:200px;visibility:hidden;padding-top:5px;overflow:hidden;position:absolute;left:0;top:37px;z-index:55}
+#global-nav .submenu-container .submenu{padding:10px;width:180px;background:#393739;-moz-border-radius:0 0 5px 5px;-webkit-border-radius:0 0 5px 5px;border-radius:0 0 5px 5px}
+#global-nav .submenu-container ul li a,#global-nav .submenu-container ul li .title span{background:none;font-family:arial;color:#fff;display:block;font-size:12px;line-height:18px;text-decoration:none}
+#global-nav .submenu-container ul li.title{margin-bottom:5px}
+#global-nav .submenu-container ul li.title span{color:#f2dab0;padding:0 10px;font-weight:700;font-size:12px;font-family:tahoma;text-transform:uppercase;display:block}
+#global-nav .submenu-container ul li a:hover{color:red;font-weight:700}
+#secondary-nav{height:60px;width:100%;background:url(/images/website/secondary_nav_bg.png) repeat-x left top}
+#secondary-nav .container{width:1000px;height:60px;margin:0 auto;background:none no-repeat 0 18px}
+#secondary-nav #links-container{float:right;padding-right:5px;padding-top:22px;color:#fff;font-family:arial;font-size:11px;position:relative}
+#secondary-nav #links-container a{color:#fff}
+#secondary-nav #links-container a:hover{color:#ffc423}
+#secondary-nav .more-links{color:#FFF;display:inline;position:relative}
+.ie7 .more-links,.ie6 .more-links{display:inline;zoom:1}
+#secondary-nav .more-links .dropdown{display:none;padding-top:15px;position:absolute;left:-105px;top:0;z-index:100}
+#secondary-nav .more-links .dropdown ul{background:#000;list-style:none outside none;margin:0;min-width:150px;padding:5px}
+#secondary-nav .more-links .dropdown ul li{margin-bottom:3px}
+#secondary-nav .more-links span{color:#fff}
+#secondary-nav .more-links .more{color:#fff;font-weight:700}
+
+/* SOCIAL ICONS */
+
+#social-icons{width:158px;height:37px;float:right;position:relative}
+.social-icon{height:37px;display:block;float:left;background-image:url(/images/website/master_sprite.png)}
+.social-icon .label{width:36px;height:17px;padding:10px;position:absolute;right:0;top:0;display:none;color:#fff;line-height:17px;font-size:9px;text-align:center;font-family:helvetica;text-transform:uppercase}
+.social-icon:hover .label{display:block}
+.social-icon1 .label{line-height:10px}
+.social-icon1{width:13px;background-position:-896px -245px;margin-right:10px}
+.social-icon2{width:18px;background-position:-919px -245px;margin-right:11px}
+.social-icon3{width:16px;background-position:-948px -245px;margin-right:10px}
+.social-icon4{width:10px;background-position:-974px -245px}
+.social-icon1:hover{background-position:-896px -283px}
+.social-icon2:hover{background-position:-919px -283px}
+.social-icon3:hover{background-position:-948px -283px}
+.social-icon4:hover{background-position:-974px -283px}
+
+/************* HEADLINES *************/
+
+#j-carousel{width:750px;height:362px;position:relative;overflow:hidden;margin:0 auto}
+#j-carousel .seats{width:750px;height:300px;position:relative}
+#j-carousel .seat{display:none;width:750px;height:300px;overflow:visible;position:absolute;left:0;top:0}
+#j-carousel .media-box{width:500px;height:300px;position:absolute;right:0;top:0}
+#j-carousel .story-box{font-family:arial;width:228px;height:342px;padding:10px;color:#fff;position:absolute;left:0;top:0}
+#j-carousel .story-box .title{display:block;color:#fff;font-size:16px;font-weight:700;line-height:24px}
+#j-carousel .story-box .date{display:block;color:#fff;font-size:10px;font-weight:700}
+#j-carousel .story-box .leadin{color:#fff}
+#j-carousel .story-box .label{font-weight:400}
+#j-carousel .story-box .readmore{color:red;white-space:nowrap;font-weight:700}
+#j-carousel .carousel-related-links{position:absolute;left:10px;bottom:10px}
+#j-carousel .carousel-related-links a{width:125px;background: no-repeat right top;color:#fff;font-weight:700;font-size:13px}
+#j-carousel .carousel-related-links a:hover{color:#ff0917}
+#j-carousel .controls{width:500px;color:#fff;position:absolute;right:0;bottom:0;z-index:100}
+#j-carousel .control{cursor:pointer;position:relative;margin-right:2px;width:98px;height:60px;position:relative;float:left}
+#j-carousel .control5{margin-bottom:0}
+#more-headlines .row{padding:10px;margin-bottom:5px;color:#000;font-family:arial;background:url(/images/website/event_bg_grad_grey.png) repeat-x left bottom #e0e0e0}
+#more-headlines .title{display:block;color:#000;font-weight:700;font-size:12px}
+#more-headlines .date{display:block}
+#more-headlines .leadin{display:block}
+
+/* SCHEDULE */
+
+.calendar-html .title{text-align:center}
+.schedule-boxscore{width:346px;padding:0 10px}
+.schedule-boxscore .boxevent{margin-bottom:10px}
+
+/* EVENT-SLIDER */
+
+#events-slider-wrapper{width:795px;height:94px;overflow:hidden;position:absolute;right:0;top:115px}
+#events-slider{}
+#events-slider li{width:795px;height:94px;overflow:hidden}
+#events-slider .boxevent{width:245px;height:64px;float:left;padding:20px 10px 10px;overflow:hidden;color:#fff;background:url(/images/website/scoreboard_center_bg.png) no-repeat center top}
+#events-slider .boxevent table{width:100%;border-collapse:collapse}
+#events-slider .boxevent td{vertical-align:top;white-space:nowrap;font-weight:700;font-size:10px;line-height:14px}
+#events-slider .boxevent .col1{padding-right:5px;width:45%}
+#events-slider .boxevent.alpha,#events-slider .boxevent.omega{background:none}
+#events-slider .date{display:block}
+#events-slider .links a{color:#00305e}
+#events-slider .no-events span{font-weight:700;text-align:center;color:#fff;display:block;padding-top:20px}
+#events-slider-prev,#events-slider-next,#events-slider-pp{display:none}
+
+/************* SCHEDULE ****************/
+
+.schedule-wrapper .schedule{width:100%;border-collapse:collapse}
+.schedule-wrapper .schedule-data{width:500px;border-collapse:collapse;border:none;margin:0 auto}
+.schedule-wrapper .schedule-data td{padding:5px}
+.schedule-wrapper .schedule-header td{font-weight:700;color:#FFF;background-color:#17406B;padding:5px}
+.schedule-wrapper .schedule-row td{font-size:11px;padding:5px}
+.schedule-wrapper .schedule-month{background:#000;color:#fff}
+.schedule-wrapper .schedule-row1 td{background-color:#d1d1d1;font-size:11px;padding:5px}
+.schedule-wrapper .schedule-row0 td{background-color:#;font-size:11px;padding:5px}
+
+/********** ROSTERS **********/
+
+.internal-page .roster{width:100%;background-color:}
+.internal-page .roster-header td{font-weight:700;color:#FFF;background-color:#17406B;padding:2px;line-height:22px}
+.internal-page .roster-header td a{text-decoration:underline;color:#FFF!important}
+.internal-page .roster-row a{text-decoration:underline;color:#000!important}
+.internal-page .roster-row a:hover{text-decoration:underline;color:#000!important}
+.internal-page .roster-row0 td{background-color:#D1D1D1;font-size:11px;padding:2px;line-height:22px}
+.internal-page .roster-row1 td{background-color:#FFF;font-size:11px;padding:2px;line-height:22px}
+.internal-page .roster-row td{background-color:#E8E8E8;font-size:11px;padding:2px;color:#000}
+
+/********** BIOS**********/
+
+#mainbody .bio-wrap .head{background:#17406B!important;color:#FFF}
+#mainbody .bio-wrap .head h2{background:#000;color:#FFF}
+#mainbody .bio-wrap .head a{color:#E9C526}
+
+/********* STATS ***********/
+
+.stats-wrapper{color:#000;background:#FFF}
+.stats-wrapper th{background:#17406B;/* set the primary color here ??? dark color required */color:#fff}
+.stats-wrapper a{/* set the link color here */color:#333;text-decoration:underline}
+.stats-wrapper a:hover{/* set the link color here */color:#000}
