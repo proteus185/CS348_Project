@@ -1,0 +1,15 @@
+The plan will contain two seperate parts that may be developed simultainiously.
+
+---------Part 1 Layout and CSS
+
+General style plan is to have a page devided into three sections horizontally similar to the actual "UMWEAGLES" atherletics page. 
+
+The top will contain links and (possibly) a search box
+
+The middle will have the pictures being displayed for the user along with information on each photo (title, descrption etc)
+
+The bottom will have more links and some information (priceing etc.)
+
+----------Part 2 Database
+
+A basic sql database that will contain our files
