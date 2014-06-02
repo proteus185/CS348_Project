@@ -1,13 +1,43 @@
-The plan will contain two seperate parts that may be developed simultainiously.
+Plan Objectives 
 
----------Part 1 Layout and CSS
+-Provide a clear to-do list for every week.
 
-General style plan is to have a page devided into sections with a similar color scheme to the actual "UMWEAGLES" atheletics page. 
+-Provide Flexibility when considering soft deadlines in cases of problems or external influences.
 
-The page will contain links to other notable sports pages, back into the UMWEAGLES site. and (possibly) a search box
+Week 2 
 
-The page will have the pictures being displayed for the user along with information on each photo (title, descrption etc)
+-Bring the basic CSS and style-ings online and write out the plan for the rest of the semester.
 
-----------Part 2 Database
+-The CSS will be a template from an open source dev with color and other changes for our usage.
 
-A basic sql database that will contain our files
+-The plan will be a txt file in our github repository.
+
+Week 3 
+
+-Write out a visual representation of a MYSQL database on paper/powerpoint/gliffy. 
+    ->if possible add file to github, or ensure all team members have a personal copy.
+
+-Produce and store test amount of data in the database.
+
+-Write queries for displaying the the desired pictures in the template. (storage without DB doesn't scale well)
+
+-Continue work on the template to produce acurate color represntations for the page. 
+
+Week 4
+
+-Finalize data and queries for the database.
+
+-User "cart" with selected works for purchase.
+
+-Add payment method and confirmation page. 
+
+Week 5
+
+-Present
+
+
+STRETCH GOALS 
+
+-The ability to add payment form data to the database.
+
+-User profiles
