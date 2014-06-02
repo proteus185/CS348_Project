@@ -1,13 +1,15 @@
 body
 { background: #2C2C2A;
   color: #929280;
+
 }
 
 blockquote{border-color: #40403E;}
 
 #site_content
-{ background: url(back.png) repeat;
+{ background:url(umw.jpg) ;
   border-color: #40403E;
+
 }
 
 #menu li a, .side_menu_item a
