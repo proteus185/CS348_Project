@@ -184,6 +184,18 @@ ol li
   padding: 12px 0px 18px 14px;
 }
 
+#content title
+.content_title
+{font-family: times new roman;
+text-align: center;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 5px 0px 5px 0px; 
+  margin: 0px 0px 12px 0px; 
+  border-bottom: 1px solid;
+  font-size: 600%;
+}
+
 #content a, #content a:hover{text-decoration: none;}
 
 /* form */

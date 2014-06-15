@@ -38,7 +38,7 @@
   </div>
    <div id="site_content">
     <div id="content">
-      <h2>Your Cart thus far</h2>
+      <h2>Your Cart Thus Far</h2>
       <?php 
 	$items = array('picture_1', 'picture_2', 'picture_3', 'picture_4');
 	$prices = array(5.00, 10.00,15.00,20.00);
@@ -57,7 +57,7 @@
 		echo(number_format($prices[$_SESSION['cart'][$i]],2));
 				echo('</td>');
 				echo('</tr>');
-				$total = $total + $proces[$_SESSION['cart'][$i]];
+				$total = $total + $process[$_SESSION['cart'][$i]];
 			}
 		?>
 		<tr>
@@ -67,9 +67,12 @@
 	</table>
     <p>
 	<!-- return to shopping, _empty the cart or purchase the merchandise-->
+
 	<form action="index.html"><input type="submit" value="Continue Shopping"></form>
         <form action="purchase.html"><input type="submit" value="Purchase"></form>
+
 	<a href="<?$_SERVER['PHP_SELF']?>?empty=1"> Empty your cart</a>
+
     <p>
     </div>
    </div>
