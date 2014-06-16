@@ -77,7 +77,7 @@
 	<!-- return to shopping, _empty the cart or purchase the merchandise-->
 
 	<form action="index.html"><input type="submit" value="Continue Shopping"></form>
-        <form action="purchase.html"><input type="submit" value="Purchase"></form>
+        <form action="purchase.php"><input type="submit" value="Purchase"></form>
 
 	<a href="<?$_SERVER['PHP_SELF']?>?empty=1"> Empty your cart</a>
 

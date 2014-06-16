@@ -22,9 +22,9 @@
   <div id="menu">
     <ul>
       <li><a  href="index.html">Home</a></li>
-      <!--<li><a href="about.html">about this template</a></li>-->
-        <li><a href="search.html">Search</a></li>
-        <li><a class="selected" href="cart.php">Cart--</a></li>
+        <li><a href="search.php">Search</a></li>
+        <li><a class="selected" href="cart.php">Cart</a></li>
+	<li><a href="login.php">Login</a></li>
     </ul>
   </div>
    <div id="site_content">
@@ -98,7 +98,7 @@
 	<option value="WY">Wyoming</option>
 </select> :State</label>
 <br />
-<label><input type = "text" name = "Zip"/> :zip Code</label>
+<label><input type = "text" name = "zip"/> :zip Code</label>
 <br />
 <label><input type = "text" name ="phone"/> :Phone Number</label>
 <br />
