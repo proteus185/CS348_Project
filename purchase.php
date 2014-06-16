@@ -24,8 +24,7 @@
       <li><a  href="index.html">Home</a></li>
       <!--<li><a href="about.html">about this template</a></li>-->
         <li><a href="search.html">Search</a></li>
-        <li><a class="selected" href="cart.php">Cart</a></li>
-	<li><a href="login.php">Login</a></li>
+        <li><a class="selected" href="cart.php">Cart--</a></li>
     </ul>
   </div>
    <div id="site_content">
@@ -35,6 +34,8 @@
 
 <form action = "confirm.php" method ="post">
 <p>
+<label><input type = "text" name = "ccnumber"/> :Credit Card Number</label>
+<br />
 <label><input type = "text" name = "name"/> :Full Name</label>
 <br />
 <label><input type = "text" name ="address"/> :Street Address</label>
@@ -97,7 +98,7 @@
 	<option value="WY">Wyoming</option>
 </select> :State</label>
 <br />
-<label><input type = "text" name = "Zip"/> :Zip Code</label>
+<label><input type = "text" name = "Zip"/> :zip Code</label>
 <br />
 <label><input type = "text" name ="phone"/> :Phone Number</label>
 <br />
