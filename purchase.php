@@ -42,9 +42,10 @@
 <br />
 <label><input type = "text" name = "city"/> :City</label>
 <br />
-<label>
+<label><input type = "text" name = "state"/> :State</label>
+<!--<label> -->
 
-<select name = "state">
+<!--<select name = "state">
 	<option value="AL">Alabama</option>
 	<option value="AK">Alaska</option>
 	<option value="AZ">Arizona</option>
@@ -96,7 +97,8 @@
 	<option value="WV">West Virginia</option>
 	<option value="WI">Wisconsin</option>
 	<option value="WY">Wyoming</option>
-</select> :State</label>
+</select> :State</label> -->
+
 <br />
 <label><input type = "text" name = "zip"/> :zip Code</label>
 <br />
