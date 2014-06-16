@@ -23,7 +23,8 @@
     <ul>
       <li><a class="selected" href="index.html">Home</a></li>
      	<li><a href="search.php">Search</a></li>
-	<li><a href="cart.php">Cart--</a></li>
+	<li><a href="cart.php">Cart</a></li>
+	<li><a href="login.php">Login</a></li>
     </ul>
   </div>
   <div id="site_content">
@@ -54,10 +55,12 @@
       </div>
 
     </div>
+
+<form id = "basket" method="post" action="cart.php">
     <div id="content">
-      <h2>Basketball Photographs (01.01.2007)<span class="sub">[hover over thumbnails to view, click thumbnails to add to your cart]</span></h2>
+      <h2>Basketball Photographs<span class="sub">[hover over thumbnails to view, click thumbnails to add to your cart]</span></h2>
       <div id="gallery">
-        <em id="thumbs">
+        <em id="thumbs" value = "yes">
           <a href="#nogo"><img src="images/series_one/sea_1.jpg" title="Sun Reflections [Tighnabruaich, Scotland]" alt="Sun Reflections [Tighnabruaich, Scotland]" /></a>
           <a href="#nogo"><img src="images/series_one/sea_2.jpg" title="Sunset Edge [Tighnabruaich, Scotland]" alt="Sunset Edge [Tighnabruaich, Scotland]" /></a>
           <a href="#nogo"><img src="images/series_one/sea_1.jpg" title="Sun Reflections [Tighnabruaich, Scotland]" alt="Sun Reflections [Tighnabruaich, Scotland]" /></a>
@@ -79,6 +82,10 @@
         </em>
       </div>
     </div>
+</form>
+
+
+
   </div>
 </body>
 </html>

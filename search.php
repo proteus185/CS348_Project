@@ -23,7 +23,8 @@
     <ul>
       <li><a href="index.html">Home</a></li>
     	<li><a class="selected"  href="search.php">Search</a></li>
-	<li><a href="cart.php">Cart--</a></li>
+	<li><a href="cart.php">Cart</a></li>
+	<li><a href="login.php">Login</a></li>
     </ul>
   </div>
  <div id="site_content">
@@ -41,9 +42,46 @@
 
 <?php
 	$item = $_POST["searchItem"];
+	$url = '';
+
 	if($item != ""){
-		print "Search Results for " . "<u/><strong/>". $_POST["searchItem"]. ":<br />";
+		print "Search Results for " . "<p><u/><i/><strong/>". $_POST["searchItem"]. ":</p><br /> \n";
+		
 	}
+	switch($item){
+		case "":
+			break;
+		case "basketball":
+		case "Basketball":
+			echo '<a href = "basketball.php">Basketball</a>';
+			break;	
+		case "baseball":
+		case "Baseball":
+			echo '<a href = "baseball.php">Baseball</a>';
+			break;
+		case "volleyball":
+		case "Volleyball":
+		case "volley ball":
+			echo '<a href = "volleyball.php">Volleyball</a>';
+			break;
+		case "swim":
+		case "Swimming":
+		case "swimming":
+			echo '<a href = "swimming.php">Swimming</a>';
+			break;
+		case "track":
+		case "track and field":
+		case "track & field":
+			echo '<a href = "trackField.php">Track & Field</a>';
+			break;
+		case "lacrosse":
+		case "Lacrosse":
+			echo '<a href = "lacrosse.php">Lacrosse</a>';
+			break;
+		default:
+			echo "No Results Found<i/>";					
+	}
+
 ?>
 
 	<br/>

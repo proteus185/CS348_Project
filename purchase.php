@@ -24,7 +24,8 @@
       <li><a  href="index.html">Home</a></li>
       <!--<li><a href="about.html">about this template</a></li>-->
         <li><a href="search.html">Search</a></li>
-        <li><a class="selected" href="cart.php">Cart--</a></li>
+        <li><a class="selected" href="cart.php">Cart</a></li>
+	<li><a href="login.php">Login</a></li>
     </ul>
   </div>
    <div id="site_content">

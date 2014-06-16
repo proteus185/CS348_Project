@@ -33,13 +33,21 @@
       <li><a  href="index.html">Home</a></li>
       <!--<li><a href="about.html">about this template</a></li>-->
 	<li><a href="search.php">Search</a></li>
-	<li><a class="selected" href="cart.php">Cart--</a></li>
+	<li><a class="selected" href="cart.php">Cart</a></li>
+	<li><a href="login.php">Login</a></li>
     </ul>
   </div>
    <div id="site_content">
     <div id="content">
-      <h2>Cart Items</h2>
+
+      <h2>Items in Cart</h2>
       <?php 
+
+	$x = 0;
+
+	$pic = $_POST[thumbs];
+
+
 	$items = array('picture_1', 'picture_2', 'picture_3', 'picture_4');
 	$prices = array(5.00, 10.00,15.00,20.00);
 	?>

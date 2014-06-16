@@ -23,7 +23,8 @@
     <ul>
       <li><a class="selected" href="index.html">Home</a></li>
     	<li><a href="search.php">Search</a></li>
-	<li><a href="cart.php">Cart--</a></li>
+	<li><a href="cart.php">Cart</a></li>
+	<li><a href="login.php">Login</a></li>
     </ul>
   </div>
   <div id="site_content">
@@ -55,7 +56,7 @@
 
     </div>
     <div id="content">
-      <h2>Track & Field Photographs (01.01.2007)<span class="sub">[hover over thumbnails to view, click thumbnails to add to your cart]</span></h2>
+      <h2>Track & Field Photographs <span class="sub">[hover over thumbnails to view, click thumbnails to add to your cart]</span></h2>
       <div id="gallery">
         <em id="thumbs">
           <a href="#nogo"><img src="images/series_one/sea_1.jpg" title="Sun Reflections [Tighnabruaich, Scotland]" alt="Sun Reflections [Tighnabruaich, Scotland]" /></a>
