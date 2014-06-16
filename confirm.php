@@ -24,7 +24,7 @@ $email = $_POST['email'];
 print "Values: " . $n; 
 
 if($cc && $n && $add && $city && $st && $zip && $phone && $email) {
-$query = "INSERT INTO project_ship_info (ccnumber, name, address, city, state, zip, phone, email) VALUES($cc, $n, $add, $city, $st, $zip, $phone, $email)";
+$query = "INSERT INTO project_ship_info (ccnumber, name, address, city, state, zip, phone, email) VALUES('$cc', '$n', '$add', '$city', '$st', '$zip', '$phone', '$email')";
 $result = mysqli_query ($conn, $query);
 $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
 
