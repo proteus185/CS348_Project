@@ -22,7 +22,7 @@
   <div id="menu">
     <ul>
       <li><a href="index.html">Home</a></li>
-    	<li><a class="selected"  href="search.html">Search</a></li>
+    	<li><a class="selected"  href="search.php">Search</a></li>
 	<li><a href="cart.php">Cart--</a></li>
     </ul>
   </div>
@@ -30,12 +30,22 @@
     <div id="side_menu">
 <h2>Search Gallery</h2>
 <h3>Search Gallery</h3>
-	<input type= "text" name = "search" size = "40"> <br/>
-	<input type = "submit" name = "search" value = "Search">
 
+<form method = "post" action ="">
+	<input type= "text" name = "searchItem" size = "40"> <br/>
+	<input type = "submit" name = "search" value = "Search">
+</form>
 	<br/>
 	<br/>
 	<br/>
+
+<?php
+	$item = $_POST["searchItem"];
+	if($item != ""){
+		print "Search Results for " . "<u/><strong/>". $_POST["searchItem"]. ":<br />";
+	}
+?>
+
 	<br/>
 	<br/>
 	<br/>
@@ -53,9 +63,8 @@
 	<br/>
     </div>
     <div id="content">
-    
-
     </div>
+
   </div>
 </body>
 </html>
