@@ -42,6 +42,9 @@
 	<br/>
     </div>
     <div id="content">
+	<?php
+
+	?>
     </div>
   </div>
 </body>
