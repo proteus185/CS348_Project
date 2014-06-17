@@ -21,7 +21,7 @@
 <!--<div id="links">design by <a href="http://www.dcarter.co.uk">dcarter</a><br />image viewer from <a href="http://www.cssplay.co.uk">CSSplay</a></div></div>-->
   <div id="menu">
     <ul>
-      <li><a href="index.html">Home</a></li>
+      <li><a href="index.php">Home</a></li>
     	<li><a href="search.php">Search</a></li>
 	<li><a href="cart.php">Cart</a></li>
 	<li><a class= "selected" href="login.php">Login</a></li>
@@ -29,7 +29,7 @@
   </div>
 <div id="site_content">
     <div id="side_menu">
-<form method = "post" action ="">
+<form method = "post" action ="display.php">
 	<label><h4>Login:</h4></label><input type= "text" name = "username"  size = "40"><br/>
 	<label><h4>Password:</h4></label><input type = "password" name = "password" > <br/>
 	<input type ="submit" name = "login" value = "Login"/>
