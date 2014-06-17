@@ -1,0 +1,16 @@
+README
+Group 4
+Ian and Sonia
+
+Usage FAQ
+There is no information “necessary” to use the website. It is compatible with Chrome and     Firefox, though older versions may have bugs. Just follow the link and you are on your way! All of the files are hosted on github. The project is public, if there are any issues accessing the files we will be glad to send you a zip copy in an email. The Database password and login information is in the “mybdinfo.php” page in our github repository if it is needed for any reason.
+-Site URL: http://rosemary.umw.edu/~ihill/CS348_Project/index.php
+-Github Repository: https://github.com/proteus185/CS348_Project 
+Project Description
+	The project we selected to showcase the skills learned in this class was the “Athletics Department Picture Store” option. We selected this project as it allowed us to utilize some of our prior knowledge from other classes as well as expand our experience in web development. 
+	Our web site’s basic CSS and design came from a template, though we modified it to better suit our needs. Changing the colors and adding a multitude of other features we molded a simple picture viewing template into our own design. The user can go through the pages in a non-linear fashion if they desire. From there we set up a method where users could choose and acquire different picture packages of their favorite UMW sports stars. 
+A checkout procedure was created. The user inputs basic information into a form and upon completion can submit it. The record of the transaction is then stored in a database. In addition the Database also houses a basic login feature to hold user information.   
+Goals Not Accomplished
+	Do to constant bugs with all matter of display methods when trying to show the results of a query, the login page does not live up to our hopes for it. No obvious or outstanding bugs were found and despite having ensured the use of non-depreciated commands, the results of our queries remained elusive. 
+	Lack of sufficient information on PayPal’s payment method prevented the addition of that payment method to our purchase form. 
+	As sessions for the pictures were causing large amounts of pain, a simpler model based off of “packages” was developed. This new model eliminated the need for a cart and instead allowed the user to preview a small portion of the photos that were contained in each sport package.
