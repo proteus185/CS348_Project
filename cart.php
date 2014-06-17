@@ -30,7 +30,7 @@
 <!--<div id="links">design by <a href="http://www.dcarter.co.uk">dcarter</a><br />image viewer from <a href="http://www.cssplay.co.uk">CSSplay</a></div></div>-->
   <div id="menu">
     <ul>
-      <li><a  href="index.html">Home</a></li>
+      <li><a  href="index.php">Home</a></li>
       <!--<li><a href="about.html">about this template</a></li>-->
 	<li><a href="search.php">Search</a></li>
 	<li><a class="selected" href="cart.php">Cart</a></li>
@@ -76,7 +76,7 @@
     <p>
 	<!-- return to shopping, _empty the cart or purchase the merchandise-->
 
-	<form action="index.html"><input type="submit" value="Continue Shopping"></form>
+	<form action="index.php"><input type="submit" value="Continue Shopping"></form>
         <form action="purchase.php"><input type="submit" value="Purchase"></form>
 
 	<a href="<?$_SERVER['PHP_SELF']?>?empty=1"> Empty your cart</a>

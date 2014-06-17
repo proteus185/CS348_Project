@@ -59,11 +59,11 @@
       <h2>VolleyBall Photographs<span class="sub">[hover over thumbnails to view, click thumbnails to add to your cart]</span></h2>
       <div id="gallery">
         <em id="thumbs">
- 	   <a href="#nogo"><img src="images/Lacrosse/picture1.jpg" title="picture1" alt="picture1" /></a>
-          <a href="#nogo"><img src="images/Lacrosse/picture2.jpg" title="picture2" alt="picture2" /></a>
-	   <a href="#nogo"><img src="images/Lacrosse/picture3.jpg" title="picture3" alt="picture3" /></a>
-	   <a href="#nogo"><img src="images/Lacrosse/picture4.jpg" title="picture4" alt="picture4" /></a>
-          <a href="#nogo"><img src="images/Lacrosse/picture5.jpg" title="picture5" alt="picture5" /></a>
+ 	   <a href="#nogo"><img src="images/Volleyball/picture1.jpg" title="picture1" alt="picture1" width="330"height="480"/></a>
+          <a href="#nogo"><img src="http://umweagles.com/sports/wvball/2009-10/releases/WVB_1110092947.html_sd3rm.jpeg" title="picture2" alt="picture2" height="480" width="330"/></a>
+	   <a href="#nogo"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSShNaMG3hx9kLWW-rX3cHlI91WxjF3YZ3MkFf69OUuqo8l_orQ" title="picture3" alt="picture3" height="480" width="330"/></a>
+	   <a href="#nogo"><img src="images/Volleyball/picture4.jpg" title="picture4" alt="picture4" height="480" width="330"/></a>
+          <a href="#nogo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPODDpzejfQNRas8I42ao2B7P837WoEk0d6sxhgikQSZI_cqeW" title="picture5" alt="picture5" height="480" width="330"/></a>
         </em>
       </div>
     </div>

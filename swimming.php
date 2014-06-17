@@ -59,11 +59,11 @@
       <h2>Swimming Photographs<span class="sub">[hover over thumbnails to view, click thumbnails to add to your cart]</span></h2>
       <div id="gallery">
         <em id="thumbs">
-           <a href="#nogo"><img src="images/Lacrosse/picture1.jpg" title="picture1" alt="picture1" /></a>
-          <a href="#nogo"><img src="images/Lacrosse/picture2.jpg" title="picture2" alt="picture2" /></a>
-	   <a href="#nogo"><img src="images/Lacrosse/picture3.jpg" title="picture3" alt="picture3" /></a>
-	   <a href="#nogo"><img src="images/Lacrosse/picture4.jpg" title="picture4" alt="picture4" /></a>
-          <a href="#nogo"><img src="images/Lacrosse/picture5.jpg" title="picture5" alt="picture5" /></a>
+           <a href="#nogo"><img src="http://umwbullet.com/files/2010/11/swim1FINAL2.jpg" title="picture1" alt="picture1" height="480" width="330"/></a>
+          <a href="#nogo"><img src="images/Swim/picture2.jpg" title="picture2" alt="picture2" height="480" width="330"/></a>
+	   <a href="#nogo"><img src="images/Swim/picture3.jpg" title="picture3" alt="picture3" height="480" width="330"/></a>
+	   <a href="#nogo"><img src="http://www.cacsports.com/images/wswimdive/2011-2012/SMC.wswm.kheyde.jpg" title="picture4" alt="picture4" height="480" width="330"/></a>
+          <a href="#nogo"><img src="http://www.umweagles.com/sports/mswimming/2011-12/releases/rp_primary_pumpkin_patch_002.jpg" title="picture5" alt="picture5" height="480" width="330"/></a>
         </em>
       </div>
     </div>

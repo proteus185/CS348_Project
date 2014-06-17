@@ -61,12 +61,12 @@
       <h2>Basketball Photographs<span class="sub">[hover over thumbnails to view, click thumbnails to add to your cart]</span></h2>
       <div id="gallery">
         <em id="thumbs" value = "yes">
-          <a href="#nogo"><img src="images/Basketball/picture_1.jpg" title="picture1" alt="picture1" /></a>
-          <a href="#nogo"><img src="images/Basketball/picture_2.jpg" title="picture2" alt="picture2" /></a>
-          <a href="#nogo"><img src="images/Basketball/picture_3.jpg" title="picture3" alt="picture3" /></a>
-	   <a href="#nogo"><img src="images/Basketball/picture7.jpg" title="picture4" alt="picture4" /></a>
-          <a href="#nogo"><img src="images/Basketball/picture5.jpg" title="picture5" alt="picture5" /></a>
-          <a href="#nogo"><img src="images/Basketball/picture4.jpg" title="picture6" alt="picture6" /></a>
+          <a href="#nogo"><img src="images/Basketball/picture_1.jpg" title="picture1" alt="picture1" height="480" width="330" /></a>
+          <a href="#nogo"><img src="images/Basketball/picture_2.jpg" title="picture2" alt="picture2" height="480" width="330"/></a>
+          <a href="#nogo"><img src="images/Basketball/picture_3.jpg" title="picture3" alt="picture3" height="480" width="330"/></a>
+	   <a href="#nogo"><img src="images/Basketball/picture7.jpg" title="picture4" alt="picture4" height="480" width="330"/></a>
+          <a href="#nogo"><img src="http://cdn.freelancestar.com/photos/web/2014/1/13/sp_011614umw2-large.jpeg" title="picture5" alt="picture5" height="480" width="330" /></a>
+          <a href="#nogo"><img src="images/Basketball/picture4.jpg" title="picture6" alt="picture6" height="480" width="330"/></a>
 	</em>
       </div>
     </div>
