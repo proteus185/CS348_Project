@@ -59,24 +59,13 @@
       <h2>Baseball Photographs<span class="sub">[hover over thumbnails to view, click thumbnails to add to your cart]</span></h2>
       <div id="gallery">
         <em id="thumbs">
-          <a href="#nogo"><img src="images/series_one/sea_1.jpg" title="Sun Reflections [Tighnabruaich, Scotland]" alt="Sun Reflections [Tighnabruaich, Scotland]" /></a>
-          <a href="#nogo"><img src="images/series_one/sea_2.jpg" title="Sunset Edge [Tighnabruaich, Scotland]" alt="Sunset Edge [Tighnabruaich, Scotland]" /></a>
-          <a href="#nogo"><img src="images/series_one/sea_1.jpg" title="Sun Reflections [Tighnabruaich, Scotland]" alt="Sun Reflections [Tighnabruaich, Scotland]" /></a>
-          <a href="#nogo"><img src="images/series_one/sea_2.jpg" title="Sunset Edge [Tighnabruaich, Scotland]" alt="Sunset Edge [Tighnabruaich, Scotland]" /></a>
-          <a href="#nogo"><img src="images/series_one/sea_1.jpg" title="Sun Reflections [Tighnabruaich, Scotland]" alt="Sun Reflections [Tighnabruaich, Scotland]" /></a>
-          <a href="#nogo"><img src="images/series_one/sea_2.jpg" title="Sunset Edge [Tighnabruaich, Scotland]" alt="Sunset Edge [Tighnabruaich, Scotland]" /></a>
-          <a href="#nogo"><img src="images/series_one/sea_1.jpg" title="Sun Reflections [Tighnabruaich, Scotland]" alt="Sun Reflections [Tighnabruaich, Scotland]" /></a>
-          <a href="#nogo"><img src="images/series_one/sea_2.jpg" title="Sunset Edge [Tighnabruaich, Scotland]" alt="Sunset Edge [Tighnabruaich, Scotland]" /></a>
-          <a href="#nogo"><img src="images/series_one/sea_1.jpg" title="Sun Reflections [Tighnabruaich, Scotland]" alt="Sun Reflections [Tighnabruaich, Scotland]" /></a>
-          <a href="#nogo"><img src="images/series_one/sea_2.jpg" title="Sunset Edge [Tighnabruaich, Scotland]" alt="Sunset Edge [Tighnabruaich, Scotland]" /></a>
-          <a href="#nogo"><img src="images/series_one/sea_1.jpg" title="Sun Reflections [Tighnabruaich, Scotland]" alt="Sun Reflections [Tighnabruaich, Scotland]" /></a>
-          <a href="#nogo"><img src="images/series_one/sea_2.jpg" title="Sunset Edge [Tighnabruaich, Scotland]" alt="Sunset Edge [Tighnabruaich, Scotland]" /></a>
-          <a href="#nogo"><img src="images/series_one/sea_1.jpg" title="Sun Reflections [Tighnabruaich, Scotland]" alt="Sun Reflections [Tighnabruaich, Scotland]" /></a>
-          <a href="#nogo"><img src="images/series_one/sea_2.jpg" title="Sunset Edge [Tighnabruaich, Scotland]" alt="Sunset Edge [Tighnabruaich, Scotland]" /></a>
-          <a href="#nogo"><img src="images/series_one/sea_1.jpg" title="Sun Reflections [Tighnabruaich, Scotland]" alt="Sun Reflections [Tighnabruaich, Scotland]" /></a>
-          <a href="#nogo"><img src="images/series_one/sea_2.jpg" title="Sunset Edge [Tighnabruaich, Scotland]" alt="Sunset Edge [Tighnabruaich, Scotland]" /></a>
-          <a href="#nogo"><img src="images/series_one/sea_1.jpg" title="Sun Reflections [Tighnabruaich, Scotland]" alt="Sun Reflections [Tighnabruaich, Scotland]" /></a>
-          <a href="#nogo"><img src="images/series_one/sea_2.jpg" title="Sunset Edge [Tighnabruaich, Scotland]" alt="Sunset Edge [Tighnabruaich, Scotland]" /></a>
+	<a href="#nogo"><img src="images/Baseball/picture1.jpg" title="picture1" alt="picture1" /></a>
+          <a href="#nogo"><img src="images/Baseball/picture2.jpg" title="picture2" alt="picture2" /></a>
+          <a href="#nogo"><img src="images/Baseball/picture3.jpg" title="picture3" alt="picture3" /></a>
+	   <a href="#nogo"><img src="images/Baseball/picture4.jpg" title="picture4" alt="picture4" /></a>
+	   <a href="#nogo"><img src="images/Baseball/picture6.jpg" title="picture2" alt="picture5" /></a>
+          <a href="#nogo"><img src="images/Baseball/picture7.jpg" title="picture6" alt="picture6" /></a>
+
         </em>
       </div>
 
