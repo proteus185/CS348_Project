@@ -21,7 +21,7 @@
 <!--<div id="links">design by <a href="http://www.dcarter.co.uk">dcarter</a><br />image viewer from <a href="http://www.cssplay.co.uk">CSSplay</a></div></div>-->
   <div id="menu">
     <ul>
-      <li><a class="selected" href="index.html">Home</a></li>
+      <li><a class="selected" href="index.php">Home</a></li>
       <!--<li><a href="about.html">about this template</a></li>-->
 	<li><a href="search.php">Search</a></li>
 	<li><a href="cart.php">Cart</a></li>
